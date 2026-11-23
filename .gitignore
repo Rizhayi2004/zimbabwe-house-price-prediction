@@ -20,3 +20,32 @@ Thumbs.db
 # Temporary files
 *.log
 *.tmp
+
+# Python build and test files
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+build/
+dist/
+*.egg-info/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Temporary editor files
+*.bak
+*.swp
+*~
+
+# Environment and secrets
+.env
+.env.*
+!.env.example
+
+# Historical and temporary raw-data files
+data/raw/house_listings_backup_*.csv
+data/raw/house_listings_before_*.csv
+data/raw/house_listings_old_schema.csv
+data/raw/house_listings_test.csv
+# Microsoft Office temporary lock files
+~$*

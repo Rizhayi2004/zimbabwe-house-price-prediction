@@ -1,0 +1,17 @@
+{
+    "multimodal": {
+        "MAE_USD": 126551.1015625,
+        "RMSE_USD": 243095.6744658366,
+        "R2": 0.5440966486930847
+    },
+    "dataset_records": 2400,
+    "training_records": 1920,
+    "testing_records": 480,
+    "image_records": 2396,
+    "missing_image_records": 4,
+    "image_embedding_dimension": 512,
+    "text_embedding_dimension": 384,
+    "random_state": 42,
+    "target": "raw USD asking price",
+    "best_validation_loss": 0.17350859940052032
+}

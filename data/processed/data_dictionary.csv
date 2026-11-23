@@ -1,0 +1,22 @@
+column_name,data_type,description,model_role
+listing_id,string,Unique identifier assigned to each property listing,Identification only
+title,string,Advertised title or headline of the property,Not used in current models
+price,int64,Advertised asking price of the property in United States dollars,Target variable
+currency,string,Currency in which the asking price is advertised; all records are USD,Validation
+city,string,City or geographical location recorded for the listing,Structured predictor
+suburb,string,Suburb or local area associated with the property,Structured predictor
+region,string,Region or administrative location associated with the listing,Not used in current models
+bedrooms,float64,Number of bedrooms advertised for the property,Structured predictor
+bathrooms,float64,Number of bathrooms advertised for the property,Structured predictor
+garages,float64,Number of garages advertised for the property,Structured predictor
+land_size,float64,Size of the property's land or stand,Structured predictor
+floor_size,float64,Size of the property's built-up floor area,Structured predictor
+property_type,string,Advertised property classification such as House or Townhouse,Structured predictor
+description,string,Natural-language description of the property and its characteristics,Text input for multimodal model
+features,string,Advertised property facilities and features,Text input for multimodal model
+listing_url,string,Web address of the original property listing,Source reference only
+image_urls,string,JSON-encoded list of image URLs associated with the listing,Image source reference
+downloaded_images,string,JSON-encoded list of locally downloaded image filenames,Image source reference
+date_posted,string,Date the property listing was posted when available,Not used in current models
+date_collected,string,Date the listing was collected during web scraping,Collection metadata
+original_listing_id,string,Original listing identifier where available,Identification and source tracking

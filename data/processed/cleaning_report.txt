@@ -1,0 +1,70 @@
+ZIMBABWE HOUSE PRICE PROJECT - CLEANING REPORT
+=======================================================
+Original rows: 2400
+Duplicate records removed: 0
+Invalid-price records removed: 0
+Final cleaned rows: 2400
+Rows removed: 0
+
+Numeric conversion-created missing values:
+price: 0
+bedrooms: 0
+bathrooms: 0
+garages: 0
+land_size: 0
+floor_size: 0
+
+Verified bathroom extraction corrections:
+SARE256485: 150.0 -> Missing
+PGP259154: 25.0 -> Missing
+
+Verified land-size/floor-size extraction corrections:
+SYR240202: land_size <NA> -> 157827.54; floor_size 157827.54 -> None
+LAW202502: land_size 2400.0 -> 2400.0; floor_size 2023430.0 -> None
+SYR257211: land_size 17000.0 -> 17000.0; floor_size 17000.0 -> None
+SYR251888: land_size <NA> -> 20000.0; floor_size 20000.0 -> None
+SYR238045: land_size 16000.0 -> 16000.0; floor_size 15782.754 -> 600.0
+SYR256831: land_size <NA> -> 16000.0; floor_size 16000.0 -> None
+FAC249532: land_size <NA> -> 100000.0; floor_size 100000.0 -> None
+PLZP255404: land_size 15413.0 -> 15413.0; floor_size 15413.0 -> None
+RLG257923: land_size <NA> -> None; floor_size 30000.0 -> None
+FAC251842: land_size <NA> -> None; floor_size 16000.0 -> None
+SYR258993: land_size <NA> -> None; floor_size 31775.0 -> None
+CLRP210156: land_size 220.0 -> 20234.28; floor_size 900.0 -> None
+SEF209539: land_size <NA> -> 157827.54; floor_size <NA> -> None
+LAW194018: land_size <NA> -> 20234.28; floor_size 999.0 -> None
+PGP212875: land_size 1784.0 -> 1784.0; floor_size 200.0 -> None
+RED248389: land_size <NA> -> None; floor_size 0.01 -> None
+
+Negative measurements converted to missing:
+bedrooms: 0
+bathrooms: 0
+garages: 0
+land_size: 0
+floor_size: 0
+
+Final missing values:
+listing_id: 0
+title: 0
+price: 0
+currency: 0
+city: 0
+suburb: 0
+region: 0
+bedrooms: 2
+bathrooms: 273
+garages: 1888
+land_size: 862
+floor_size: 292
+property_type: 0
+description: 0
+features: 474
+listing_url: 0
+image_urls: 0
+downloaded_images: 0
+date_posted: 0
+date_collected: 0
+original_listing_id: 1
+
+Final dataset shape: (2400, 21)
+Cleaned dataset: C:\Users\SIR MARCO\Desktop\zimbabwe-house-price-prediction\data\processed\cleaned_house_listings.csv

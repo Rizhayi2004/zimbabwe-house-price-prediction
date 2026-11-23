@@ -1,0 +1,18 @@
+
+column_name,description,data_type,unit_or_format
+listing_id,Unique identifier for each property listing,string,Unique listing ID
+title,Advertised property title,string,Text
+price,Advertised asking price,numeric,Original advertised amount
+currency,Currency used in the advertisement,string,USD or other stated currency
+city,City where the property is located,string,City name
+suburb,Suburb or neighbourhood,string,Suburb name
+bedrooms,Number of bedrooms,integer,Count
+bathrooms,Number of bathrooms,integer,Count
+land_size,Size of the land,numeric,Square metres where stated
+floor_size,Size of the building floor area,numeric,Square metres where stated
+garages,Number of garages,integer,Count
+property_type,Type of residential property,string,House type
+description,Advertised property description,string,Text
+listing_url,Original listing web address,string,URL
+image_filename,Locally stored image filename if permitted,string,Filename
+date_collected,Date the listing was collected,date,YYYY-MM-DD

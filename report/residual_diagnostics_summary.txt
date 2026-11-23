@@ -1,0 +1,41 @@
+EXTRA TREES RESIDUAL DIAGNOSTICS
+=======================================================
+Test records: 480
+
+MODEL PERFORMANCE
+MAE: $106,640.89
+RMSE: $206,230.97
+Median absolute error: $51,598.51
+
+RESIDUAL DISTRIBUTION
+Mean residual: $18,758.30
+Median residual: $-12,144.65
+Standard deviation: $205,590.36
+Skewness: 4.0866
+Kurtosis: 32.3983
+Residual-prediction correlation: 0.1695
+
+PREDICTION BIAS
+Underpredicted listings: 196
+Overpredicted listings: 284
+Mean residual / mean actual: 6.11%
+
+ABSOLUTE ERROR THRESHOLDS
+90th percentile: $265,856.17
+95th percentile: $356,450.20
+Above $100,000: 131
+Above $250,000: 56
+Above $500,000: 15
+
+TEN LARGEST ABSOLUTE ERRORS
+-------------------------------------------------------
+Actual: $3,000,000.00 | Predicted: $797,370.51 | Error: $2,202,629.49
+Actual: $2,200,000.00 | Predicted: $969,974.01 | Error: $1,230,025.99
+Actual: $1,700,000.00 | Predicted: $480,845.10 | Error: $1,219,154.90
+Actual: $1,100,000.00 | Predicted: $274,551.04 | Error: $825,448.96
+Actual: $1,200,000.00 | Predicted: $393,961.39 | Error: $806,038.61
+Actual: $1,650,000.00 | Predicted: $925,787.84 | Error: $724,212.16
+Actual: $1,650,000.00 | Predicted: $925,787.84 | Error: $724,212.16
+Actual: $900,000.00 | Predicted: $200,464.14 | Error: $699,535.86
+Actual: $950,000.00 | Predicted: $287,140.86 | Error: $662,859.14
+Actual: $690,000.00 | Predicted: $1,299,980.42 | Error: $609,980.42
